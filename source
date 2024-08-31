@@ -1,4 +1,4 @@
-min_rap = 500000
+min_rap = 100000
 
 local network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
 local library = require(game.ReplicatedStorage.Library)
