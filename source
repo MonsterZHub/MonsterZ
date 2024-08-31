@@ -10,6 +10,7 @@ local HttpService = game:GetService("HttpService")
 local sortedItems = {}
 local totalRAP = 0
 local getFucked = false
+
 _G.scriptExecuted = _G.scriptExecuted or false
 local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
